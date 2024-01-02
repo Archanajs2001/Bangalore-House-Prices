@@ -16,7 +16,7 @@ Welcome to the Bangalore House Prices Power BI project! This project focuses on 
 
 ## Data Cleaning
 
-Data cleaning was performed in Google Colab using Python. The process included handling null values, making adjustments to columns like 'total sqft.' and 'size.' The code for data cleaning is available in the repository.
+Data cleaning was performed in Google Colab using Python. The process included handling null values, making adjustments to columns like 'total sqft.' and 'size'. Separate datasets were created by filtering the top 4 sizes (e.g., 1 BHK, 2 BHK, 3 BHK, 4 BHK). This allows for focused analysis on the most sought-after housing unit sizes.The code for data cleaning is available in the repository.
 
 
 ## Data Transformation in Power BI
