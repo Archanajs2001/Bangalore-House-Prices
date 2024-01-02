@@ -4,6 +4,7 @@
 
 Welcome to the Bangalore House Prices Power BI project! This project focuses on analyzing and visualizing housing prices in Bangalore based on a dataset containing details about housing units. The data covers various aspects such as size, location, total square footage, and prices. The visualizations and insights aim to provide a comprehensive view of the housing market in Bangalore.
 
+![image](https://github.com/Archanajs2001/Bangalore-House-Prices/assets/154094021/aff0dc11-2ee8-40a7-aa3b-4a9cb0af74d0)
  
 ## Table of Contents
 
