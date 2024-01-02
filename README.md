@@ -16,7 +16,7 @@ Welcome to the Bangalore House Prices Power BI project! This project focuses on 
 
 ## Data Cleaning
 
-Data cleaning was performed in Google Colab using Python. The process included handling null values, making adjustments to columns like 'total sqft.' and 'size'. Separate datasets were created by filtering the top 4 sizes (e.g., 1 BHK, 2 BHK, 3 BHK, 4 BHK). This allows for focused analysis on the most sought-after housing unit sizes.The code for data cleaning is available in the repository.
+Data cleaning was performed in Google Colab using Python. The process included handling null values, making adjustments to columns like 'total_sqft.' and 'size'. Separate datasets were created by filtering the top 4 sizes (e.g., 1 BHK, 2 BHK, 3 BHK, 4 BHK). This allows for focused analysis on the most sought-after housing unit sizes.The code for data cleaning is available in the repository.
 
 
 ## Data Transformation in Power BI
@@ -36,19 +36,19 @@ Data cleaning was performed in Google Colab using Python. The process included h
 ## Visualizations
 
 - **Total Housing Units (Card):**
-  - Overview of the total number of housing units in Bangalore.
+  - Overview of the total number of housing units in Bangalore using card.
   
 - **Housing Units by Area Type (Pie Chart):**
-  - Distribution of housing units based on area type.
+  - Distribution of housing units based on area type using pie chart.
 
 - **Housing Units by Size (Bar Chart):**
-  - Breakdown of housing units by size.
+  - Breakdown of housing units by size using bar chart.
 
 - **Housing Units by Location and Size (Stacked Bar Chart):**
-  - Visual representation of housing units categorized by location and size.
+  - Visual representation of housing units categorized by location and size using stacked bar chart.
 
 - **Average Price by Location for 1, 2, 3, and 4 BHK (Area Chart):**
-  - Trends in average prices for 1, 2, 3, and 4 BHK units, highlighting the most sought-after sizes.
+  - Trends in average prices for 1, 2, 3, and 4 BHK units, highlighting the most sought-after sizes using area chart.
 
 - **Location, Total Sqft., Price, and Price per Sqft. (Table):**
   - Detailed table presenting key information for analysis.
@@ -72,7 +72,7 @@ The report includes three slicers for enhanced interactivity:
 
 1. Open the Power BI file in Power BI Desktop.
 2. Ensure that the necessary data connections are established.
-3. Explore the visualizations and insights in the different report pages.
+3. Explore the visualizations and insights in the report page.
 4. Utilize slicers for interactive filtering based on size, location, and bath.
 5. Refer to the documentation for details on data sources, transformations, and visualizations.
 
