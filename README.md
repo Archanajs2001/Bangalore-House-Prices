@@ -4,22 +4,20 @@
 
 Welcome to the Bangalore House Prices Power BI project! This project focuses on analyzing and visualizing housing prices in Bangalore based on a dataset containing details about housing units. The data covers various aspects such as size, location, total square footage, and prices. The visualizations and insights aim to provide a comprehensive view of the housing market in Bangalore.
 
+ 
 ## Table of Contents
 
 - [Data Cleaning](#data-cleaning)
 - [Data Transformation in Power BI](#data-transformation-in-power-bi)
-- [Visual Segmentation](#visual-segmentation)
-- [Shipping Analysis](#shipping-analysis)
-- [Sales Visualizations](#sales-visualizations)
-- [Tables](#tables)
-- [Contributing](#contributing)
-- [To download Power BI File](#To-download-power-bi-file)
-
+- [Visualizations](#visualizations)
+- [Slicers](#slicers)
+- [Instructions](#instructions)
 
 
 ## Data Cleaning
 
 Data cleaning was performed in Google Colab using Python. The process included handling null values, making adjustments to columns like 'total sqft.' and 'size.' The code for data cleaning is available in the repository.
+
 
 ## Data Transformation in Power BI
 
@@ -33,6 +31,7 @@ Data cleaning was performed in Google Colab using Python. The process included h
     ```DAX
     total available houses = COUNTROWS('cleaned data')
     ```
+
 
 ## Visualizations
 
@@ -54,6 +53,7 @@ Data cleaning was performed in Google Colab using Python. The process included h
 - **Location, Total Sqft., Price, and Price per Sqft. (Table):**
   - Detailed table presenting key information for analysis.
 
+
 ## Slicers
 
 The report includes three slicers for enhanced interactivity:
@@ -67,6 +67,7 @@ The report includes three slicers for enhanced interactivity:
 - **Bath Slicer:**
   - Further refine the insights by selecting the number of bathrooms in the housing units.
 
+
 ## Instructions
 
 1. Open the Power BI file in Power BI Desktop.
@@ -76,13 +77,6 @@ The report includes three slicers for enhanced interactivity:
 5. Refer to the documentation for details on data sources, transformations, and visualizations.
 
 This Power BI project provides a comprehensive overview of Bangalore house prices, enabling users to gain valuable insights into the housing market in the region.
-
-### Prerequisites
-
-- [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-
-
-Find the Python code used for data cleaning in the /DataCleaning folder.
 
 Feel free to reach out for any questions or feedback! Enjoy exploring the fascinating world of Bangalore house prices.
 
